@@ -1,0 +1,135 @@
+##############1.Data Types:
+
+1) What does immutable mean and what three types of Python core data types are considered immutable?
+A)An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+2)What does mapping mean and what kind of data type is based on mapping?
+A)The term mapping refers to an object that maps keys to associated values. The Python dictionary is the only type of mapping in the base typeset. Mappings do not maintain any left-to-right position order; they support access to stored data by key, as well as type-specific method calls.
+
+3)Name four of the main data types in Python
+A)Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data. Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte strings in Python 3 are the types of string data types.
+
+4)Why are these data types known as Python’s core data types?
+A)They are known as the core data types because they are part of the Python language itself and are always available to create other objects, you usually need to call functions in imported modules.
+ Most of the data types have a specific syntax for generating objects: “spam”, for example, is an expression that creates a string and determines the set of operations that can be applied to it. For this reason, main types are built into Python syntax. Instead, you must call the built-in open function to create a file object.
+
+5)What does sequence mean and which three types of data fall into this category?
+A)A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+##################2.Operators:
+
+1)Which function overloads the >> operator?
+A)rshift() overloads the >> operator
+
+2)What is the purpose of ** operator?
+A)Performs exponential (power) calculation on operator a**b=10 the power 20 if a=10 and b=20
+
+3)What is the purpose of // operator?
+A)The division of appearance where the result is a quotient in which the digits after the decimal point are removed.
+
+4)what is the purpose of is operator in python?
+A)is and is not are the identity operators in Python. They are used to check if two values (or variables) are located on the same part of the memory.++
+
+5)What is the purpose of not in operator?
+A)Evaluates to true if it does not finds a variables in the specified seqquence and false otherwise. x not in y,here notin results in a 1 if x is not a member of sequence y.
+
+#################3.Conditional Statements:
+
+1)What constitutes “True” in Python?
+A)A true expression is any expression that does not evaluate to 0, the empty list [ ], tuple ( ), dictionary { } or the objects None or False.
+
+2)What are the three main conditional statements in Python?
+A)if, elif, and else
+
+3)Illustrate a basic if, elif, else structure.
+A)
+if <condition>:
+. . .
+elif<another condition>:
+. . .
+else:
+    
+4)What does elif mean?
+A)It means else if. It is used after an if statement, to do another comparison.
+
+5)How are if, elif, and else blocks defined?
+A)All blocks in Python are defined by indenting. All lines of a particular code block must have the same level of indenting.
+    
+#####################4.Looping Statements:
+
+1)Which statement is used inside a loop to skip the rest of the code for the current iteration, so execution can continue with the next iteration?
+A)The continue statement is used inside a loop to skip the rest of the code for the current iteration, so execution can continue with the next iteration
+  
+2) Which loop in Python is a counter-controlled loop?
+A)In Python break statement brings control out of the current loop in which it is present
+
+3)Which Python statement is used to bring control out of the current loop?
+A)In Python break statement brings control out of the current loop in which it is present
+    
+4)What would be the result of executing the following code?
+sum = 0
+for i in range(5, 0, -2):
+    sum += i > sum
+print(sum)
+A)When i is 5, sum becomes 1 (because 5 > sum) When i is 3, sum becomes 2 (because 5 > sum) When i is 1, sum does not change as now is is not greater than sum. The print statement prints sum, which is 2
+    
+5)Name the 2 keywords used for looping?
+A)for, while
+    
+########################5.Functions:
+1)Which keyword is use for function?
+A) Keyword def marks the start of function header. 
+    
+2)Which of the following items are present in the function header?
+A)function header consists of function name and parameter
+    
+3)If return statement is not used inside the function, the function will return?
+A)If return statement is not used inside the function, the function will return None.
+    
+4)What is a recursive function?
+A)Recursive functions are the functions which calls itself.
+    
+5)In which part of memory does the system stores the parameter and local variables of funtion call?
+A)Stack, where variables are stored, along with information that is saved each time a function is called. Each time a function is called, the address of where to return to and certain information about the caller's environment, such as some of the machine registers, are saved on the stack. So, option B is correct.
+
+
+
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+   
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
